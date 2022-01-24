@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    width: 100%;
+    height: 1200px;
+}
+header{
+    width: 100%;
+    height: 100px;
+}
+
+.nav-left li{
+    float: left;
+    list-style-type: none;
+    margin: 1%;
+    opacity: .8;
+}
+.nav-right li{
+    float: right;
+    list-style-type: none;
+    margin: 1%;
+    
+}
+.nav-right img {
+    opacity: .5;
+}
+.btn1{
+background-color:#4285f4 ;
+color: white;
+padding: 5px;
+width: 70px;
+border-radius: 3px;
+outline: auto;
+outline-offset: 5px;
+border: none;
+font-weight: bold;
+}
+.btn1:hover{
+    background-color: aqua;
+    color: blue;
+    transition: ease-in-out 400ms;
+}
+.logo{
+    text-align: center;
+    margin: 8%  auto 0;
+    height: 100px;
+}
+.search-btn{
+    width: 500px;
+    height: 80px;
+    margin: 0 auto ;
+    position: relative;
+   
+    
+}
+#search{
+    width: 500px;
+    height: 45px;
+    border-radius: 25px;
+    position: absolute;
+    border: 1px solid lightgray;
+}
+#search:focus{
+outline: none;
+}
+.icon{    
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    opacity: .3;
+    top: 15px;
+    left: 18px;
+}
+.mic{
+    width: 18px;
+    height: 22px;
+    position: absolute;
+    right: 12px;
+    top: 10px;
+}
+.btns{
+    width: 100%;
+    height:30px ;
+    text-align: center;
+    
+}
+.buton1{
+    height: 36px;
+    width: 120px;
+    border: hidden;
+    border-radius: 4px;
+    color: #5f6368;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.buton2{
+    height: 36px;
+    width: 140px;
+    border: hidden;
+    border-radius: 4px;
+    color: #5f6368;
+    cursor: pointer;
+}
+.language{
+    text-align: center;
+    margin-top: 20px;
+    font-size: small;
+}
+.language a {
+    color: navy;
+    text-decoration: underline;
+}
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #f2f2f2;
+    line-height: 20px;
+    font-size: 14px;
+}
+.first{
+   
+    border-bottom: 1px solid #e4e4e4;
+    margin-left: 13px;
+    height: 30px;
+    
+}
+h4{
+    color: #5f6368;
+    margin-left: 5px;
+    margin-top: 15px;
+    
+
+}
+.left-li li{
+    float: left;
+    list-style-type: none;
+    color: #5f6368;
+    margin: 1%;
+
+}
+.right-li li{
+    float: right;
+    list-style-type: none;
+    margin:1%;
+}
+.left-li li :hover{
+    text-decoration: underline;
+}
+.right-li li :hover{
+text-decoration: underline;
+}
